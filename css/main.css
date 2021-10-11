@@ -1,0 +1,42 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.imagen-fondo {
+    opacity: 0.5;
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+    }
+
+header{
+background-color: #000;
+}
+.texto-nav{
+    position: absolute;
+    top: 60%;
+    left: -9%;
+}
+nav{
+    z-index: 100;
+    position: static!important;
+    width: 100%;
+}
+#texto-oradores{
+    margin-top: 1%;
+    margin-bottom: 0px !important;
+}
+@media (min-width: 700px) {
+    .imagen-fondo {
+        height: 650px;
+        }
+    nav {
+        position: absolute !important;
+    }
+    .texto-nav{
+        top:45%;
+        text-align: right;
+        right: 1%;
+        left: auto;
+    }
+}
